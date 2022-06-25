@@ -1,0 +1,7 @@
+<div class="team-container">
+    <h3>Team{{index + 1}}</h3>
+    <ul>
+      <li *ngFor="let teamMember of team">{{teamMember | titlecase}}</li>
+      <span>{{currentDate | date}}</span>
+    </ul>
+  </div>
